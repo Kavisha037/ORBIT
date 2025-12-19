@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body { width: 300px; padding: 20px; font-family: sans-serif; background: #0f172a; color: white; }
+      h1 { font-size: 18px; color: #38bdf8; margin: 0 0 10px 0; }
+      .status-box { padding: 15px; background: #1e293b; border-radius: 8px; text-align: center; }
+      .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-top: 5px; }
+      .badge.active { background: #0ea5e9; color: white; }
+      .badge.idle { background: #475569; color: #cbd5e1; }
+      p { font-size: 13px; color: #94a3b8; line-height: 1.4; margin-top: 15px; }
+    </style>
+  </head>
+  <body>
+    <h1>FocusGuard</h1>
+    <div class="status-box">
+      <div>System Status</div>
+      <div id="statusBadge" class="badge idle">CONNECTING...</div>
+    </div>
+    <p>
+      This extension is managed by the FocusGuard Dashboard. 
+      Start a session there to block distractions.
+    </p>
+    <!-- Script must be external to satisfy CSP -->
+    <script src="popup.js"></script>
+  </body>
+</html>

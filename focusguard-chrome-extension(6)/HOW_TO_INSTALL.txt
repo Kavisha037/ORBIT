@@ -1,0 +1,6 @@
+1. Download and Extract this zip.
+2. Go to chrome://extensions/
+3. Enable 'Developer mode'.
+4. Click 'Load unpacked' and select the folder.
+5. IMPORTANT: Refresh the FocusGuard Web Dashboard page.
+6. The "CSP" error should be gone now.
